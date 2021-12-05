@@ -1,0 +1,89 @@
+.DraftEditor-root {
+  height: 1066px;
+  width: 826px;
+  padding: 96px 96px 0 96px !important;
+  margin: 20px auto 20px auto;
+  box-shadow: 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  background-color: white;
+}
+
+.uk-container {
+  padding: 0 !important;
+}
+
+.uk-navbar-container {
+  background-color: white !important;
+  border-bottom: 1px solid #dadce0;
+}
+
+.editor-container {
+  background-color: #f8f9fa !important;
+}
+
+.ruby {
+  display: ruby;
+}
+
+.title-text:hover {
+  border: 1px solid #dadce0;
+  padding: 3px;
+}
+
+.save-btn {
+  background-color: white !important;
+  padding: 0 15px !important;
+}
+
+.custom-btn {
+  background-color: white !important;
+  border: none;
+}
+
+.custom-btn:hover svg {
+  cursor: pointer;
+  color: #39f;
+}
+
+.toggled svg {
+  color: #39f;
+}
+
+.uk-divider-vertical {
+  height: 40px !important;
+}
+
+.DraftEditor-alignLeft .public-DraftEditorPlaceholder-root {
+  left: initial;
+}
+
+.DraftEditor-alignRight .public-DraftEditorPlaceholder-root {
+  right: 100px;
+}
+
+.DraftEditor-alignCenter .public-DraftEditorPlaceholder-root {
+  left: 2px;
+}
+
+#color-picker,
+#highlight-picker {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 100%;
+}
+
+#font-color,
+#highlight-color {
+  padding-top: 27px;
+}
+
+.font-size {
+  width: 62px !important;
+}
+
+@media print {
+  .uk-navbar-container {
+    display: none !important;
+  }
+}
