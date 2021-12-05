@@ -1,0 +1,45 @@
+.DraftEditor-root {
+    height: 1066px;
+    width: 826px;
+    padding: 96px 96px 0 96px !important;
+    margin: 20px auto 20px auto;
+    box-shadow: 0 1px 3px 1px rgba(60, 64, 67, .15);
+    background-color: white;
+}
+
+.uk-container {
+    padding: 0 !important;
+}
+
+.uk-navbar-container {
+    background-color: white !important;
+    border-bottom: 1px solid #dadce0;
+}
+
+.editor-container {
+    background-color: #f8f9fa !important;
+}
+
+.ruby {
+    display: ruby;
+}
+
+.title-text:hover {
+    border: 1px solid #dadce0;
+    padding: 3px;
+}
+
+.save-btn {
+    background-color: white !important;
+    padding: 0 15px !important;
+}
+
+.custom-btn:hover svg {
+    cursor: pointer;
+    stroke: #39f;
+    stroke-width: 5%;
+}
+
+.uk-divider-vertical {
+    height: 40px !important;
+}
